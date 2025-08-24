@@ -7,7 +7,7 @@ export default defineConfig(({ mode }) => ({
   server: {
     host: "::",
     port: 8080,
-    allowedHosts: ["ai-transcript-summary.onrender.com", "ai-meeting-summary.onrender.com"]
+    allowedHosts: ["ai-transcript-summary.onrender.com", "ai-meeting-summary-8u0e.onrender.com"]
   },
   plugins: [react(), mode === "development" && componentTagger()].filter(
     Boolean
